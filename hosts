@@ -42,4 +42,4 @@
 
 ## db-[99:101]-node.example.com
 
-192.168.1.8 ansible_connection=ssh ansible_user=root ansible_ssh_pass=default123
+192.168.1.10 ansible_connection=ssh ansible_user=root ansible_ssh_pass=default123
