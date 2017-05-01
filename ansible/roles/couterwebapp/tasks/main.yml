@@ -1,0 +1,4 @@
+---
+# tasks file for couterwebapp
+- name: upload war file
+  copy: src=/var/lib/jenkins/workspace/java/target/CounterWebApp.war dest=/usr/share/tomcat/webapps/CounterWebApp.war
