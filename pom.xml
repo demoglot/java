@@ -17,6 +17,20 @@
 		<jcl-over-slf4j.version>1.7.5</jcl-over-slf4j.version>
 	</properties>
 
+	<settings>
+	  <proxies>
+	   <proxy>
+		  <id>polyglot-lab-proxy</id>
+		  <active>true</active>
+		  <protocol>http</protocol>
+		  <host>192.168.11.1</host>
+		  <port>3128</port>
+		  <nonProxyHosts>192.168.11.0.*</nonProxyHosts>
+		</proxy>
+	  </proxies>
+	</settings>
+
+
 	<dependencies>
 
 		<!-- Unit Test -->
