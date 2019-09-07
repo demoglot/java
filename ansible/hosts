@@ -1,1 +1,1 @@
-qa-tomcat ansible_host=13.232.122.93 ansible_user=ubuntu ansible_ssh_private_key_file=demo.pem ansible_become=true
+qa-tomcat ansible_host=13.232.122.93 ansible_user=ubuntu ansible_ssh_private_key_file=ansible/demo.pem ansible_become=true
