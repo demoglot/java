@@ -1,5 +1,5 @@
 ---
-- host: qa-tomcat
+- hosts: qa-tomcat
   roles:
     - demoglot.tomcat
   tasks:
