@@ -1,0 +1,6 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: deploy war file to tomcat
+      copy: src=target/CounterWebApp.war dest=/usr/share/tomcat/webapps
